@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B911D8272CD97A2D00D4FECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B911D8082CD97A2B00D4FECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B911D80F2CD97A2B00D4FECC;
+			remoteInfo = "reto-0";
+		};
+		B911D8312CD97A2D00D4FECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B911D8082CD97A2B00D4FECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B911D80F2CD97A2B00D4FECC;
+			remoteInfo = "reto-0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B911D8102CD97A2B00D4FECC /* reto-0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "reto-0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B911D8262CD97A2D00D4FECC /* reto-0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reto-0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B911D8302CD97A2D00D4FECC /* reto-0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reto-0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B911D8382CD97A2D00D4FECC /* Exceptions for "reto-0" folder in "reto-0" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B911D80F2CD97A2B00D4FECC /* reto-0 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B911D8122CD97A2B00D4FECC /* reto-0 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B911D8382CD97A2D00D4FECC /* Exceptions for "reto-0" folder in "reto-0" target */,
+			);
+			path = "reto-0";
+			sourceTree = "<group>";
+		};
+		B911D8292CD97A2D00D4FECC /* reto-0Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "reto-0Tests";
+			sourceTree = "<group>";
+		};
+		B911D8332CD97A2D00D4FECC /* reto-0UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "reto-0UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B911D80D2CD97A2B00D4FECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B911D8232CD97A2D00D4FECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B911D82D2CD97A2D00D4FECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B911D8072CD97A2B00D4FECC = {
+			isa = PBXGroup;
+			children = (
+				B911D8122CD97A2B00D4FECC /* reto-0 */,
+				B911D8292CD97A2D00D4FECC /* reto-0Tests */,
+				B911D8332CD97A2D00D4FECC /* reto-0UITests */,
+				B911D8112CD97A2B00D4FECC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B911D8112CD97A2B00D4FECC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B911D8102CD97A2B00D4FECC /* reto-0.app */,
+				B911D8262CD97A2D00D4FECC /* reto-0Tests.xctest */,
+				B911D8302CD97A2D00D4FECC /* reto-0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B911D80F2CD97A2B00D4FECC /* reto-0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B911D8392CD97A2D00D4FECC /* Build configuration list for PBXNativeTarget "reto-0" */;
+			buildPhases = (
+				B911D80C2CD97A2B00D4FECC /* Sources */,
+				B911D80D2CD97A2B00D4FECC /* Frameworks */,
+				B911D80E2CD97A2B00D4FECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B911D8122CD97A2B00D4FECC /* reto-0 */,
+			);
+			name = "reto-0";
+			packageProductDependencies = (
+			);
+			productName = "reto-0";
+			productReference = B911D8102CD97A2B00D4FECC /* reto-0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B911D8252CD97A2D00D4FECC /* reto-0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B911D83E2CD97A2D00D4FECC /* Build configuration list for PBXNativeTarget "reto-0Tests" */;
+			buildPhases = (
+				B911D8222CD97A2D00D4FECC /* Sources */,
+				B911D8232CD97A2D00D4FECC /* Frameworks */,
+				B911D8242CD97A2D00D4FECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B911D8282CD97A2D00D4FECC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B911D8292CD97A2D00D4FECC /* reto-0Tests */,
+			);
+			name = "reto-0Tests";
+			packageProductDependencies = (
+			);
+			productName = "reto-0Tests";
+			productReference = B911D8262CD97A2D00D4FECC /* reto-0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B911D82F2CD97A2D00D4FECC /* reto-0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B911D8412CD97A2D00D4FECC /* Build configuration list for PBXNativeTarget "reto-0UITests" */;
+			buildPhases = (
+				B911D82C2CD97A2D00D4FECC /* Sources */,
+				B911D82D2CD97A2D00D4FECC /* Frameworks */,
+				B911D82E2CD97A2D00D4FECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B911D8322CD97A2D00D4FECC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B911D8332CD97A2D00D4FECC /* reto-0UITests */,
+			);
+			name = "reto-0UITests";
+			packageProductDependencies = (
+			);
+			productName = "reto-0UITests";
+			productReference = B911D8302CD97A2D00D4FECC /* reto-0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B911D8082CD97A2B00D4FECC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					B911D80F2CD97A2B00D4FECC = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					B911D8252CD97A2D00D4FECC = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = B911D80F2CD97A2B00D4FECC;
+					};
+					B911D82F2CD97A2D00D4FECC = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = B911D80F2CD97A2B00D4FECC;
+					};
+				};
+			};
+			buildConfigurationList = B911D80B2CD97A2B00D4FECC /* Build configuration list for PBXProject "reto-0" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B911D8072CD97A2B00D4FECC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B911D8112CD97A2B00D4FECC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B911D80F2CD97A2B00D4FECC /* reto-0 */,
+				B911D8252CD97A2D00D4FECC /* reto-0Tests */,
+				B911D82F2CD97A2D00D4FECC /* reto-0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B911D80E2CD97A2B00D4FECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B911D8242CD97A2D00D4FECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B911D82E2CD97A2D00D4FECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B911D80C2CD97A2B00D4FECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B911D8222CD97A2D00D4FECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B911D82C2CD97A2D00D4FECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B911D8282CD97A2D00D4FECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B911D80F2CD97A2B00D4FECC /* reto-0 */;
+			targetProxy = B911D8272CD97A2D00D4FECC /* PBXContainerItemProxy */;
+		};
+		B911D8322CD97A2D00D4FECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B911D80F2CD97A2B00D4FECC /* reto-0 */;
+			targetProxy = B911D8312CD97A2D00D4FECC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B911D83A2CD97A2D00D4FECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HWA92Z5UF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "reto-0/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juansevargasc.reto-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B911D83B2CD97A2D00D4FECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HWA92Z5UF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "reto-0/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juansevargasc.reto-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B911D83C2CD97A2D00D4FECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B911D83D2CD97A2D00D4FECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B911D83F2CD97A2D00D4FECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HWA92Z5UF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juansevargasc.reto-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reto-0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/reto-0";
+			};
+			name = Debug;
+		};
+		B911D8402CD97A2D00D4FECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HWA92Z5UF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juansevargasc.reto-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reto-0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/reto-0";
+			};
+			name = Release;
+		};
+		B911D8422CD97A2D00D4FECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HWA92Z5UF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juansevargasc.reto-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "reto-0";
+			};
+			name = Debug;
+		};
+		B911D8432CD97A2D00D4FECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HWA92Z5UF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juansevargasc.reto-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "reto-0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B911D80B2CD97A2B00D4FECC /* Build configuration list for PBXProject "reto-0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B911D83C2CD97A2D00D4FECC /* Debug */,
+				B911D83D2CD97A2D00D4FECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B911D8392CD97A2D00D4FECC /* Build configuration list for PBXNativeTarget "reto-0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B911D83A2CD97A2D00D4FECC /* Debug */,
+				B911D83B2CD97A2D00D4FECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B911D83E2CD97A2D00D4FECC /* Build configuration list for PBXNativeTarget "reto-0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B911D83F2CD97A2D00D4FECC /* Debug */,
+				B911D8402CD97A2D00D4FECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B911D8412CD97A2D00D4FECC /* Build configuration list for PBXNativeTarget "reto-0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B911D8422CD97A2D00D4FECC /* Debug */,
+				B911D8432CD97A2D00D4FECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B911D8082CD97A2B00D4FECC /* Project object */;
+}
