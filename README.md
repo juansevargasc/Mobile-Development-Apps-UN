@@ -1,6 +1,6 @@
 # Mobile Develpment Course Repository
-## Desarrollo de Aplicaciones Móviles - Ing. Sistemas y Computación
-### Universidad Nacional de Colombia
+## Course: Desarrollo de Aplicaciones Móviles
+#### Universidad Nacional de Colombia
 
 > Juan Sebastian Vargas Castañeda
 
