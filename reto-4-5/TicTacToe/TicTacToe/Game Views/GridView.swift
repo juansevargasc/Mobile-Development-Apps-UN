@@ -8,6 +8,8 @@
 // This view creates the board used for tictactoe, along with calling PlayerIndicator to determine which piece to place down for each player.
 
 import SwiftUI
+import AudioToolbox
+import UIKit
 
 struct GridView: View {
     @ObservedObject var viewModel : GameViewModel
@@ -21,6 +23,14 @@ struct GridView: View {
                     PlayerIndicator(systemImageName: viewModel.moves[i]?.indicator ?? "")
                 }
                 .onTapGesture {
+                    // Play tap sound
+                    AudioServicesPlaySystemSound(1105) // System "tap" sound
+                    
+                    // Add haptic feedback for better interaction
+                    let impactFeedback = UIImpactFeedbackGenerator(style: .medium)
+                    impactFeedback.impactOccurred()
+                    
+                    // Process the move
                     viewModel.processPlayerMove(for: i)
                 }
             }

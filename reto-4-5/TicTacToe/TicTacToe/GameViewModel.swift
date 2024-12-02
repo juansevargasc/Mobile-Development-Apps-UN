@@ -8,6 +8,8 @@
 // The view model for this game, handling all of the business logic and default states of the game.
 
 import SwiftUI
+import AudioToolbox // Add this to play system sounds
+
 
 final class GameViewModel: ObservableObject {
     let columns: [GridItem] = [GridItem(.flexible()),
@@ -27,6 +29,7 @@ final class GameViewModel: ObservableObject {
         
         // check for win condition or draw
         if checkWinCondition(for: .human, in: moves) {
+            playWinningSound() // Play special sound for win
             alertItem = AlertContext.humanWin
             return
         }
@@ -143,4 +146,15 @@ final class GameViewModel: ObservableObject {
     func resetGame() {
         moves = Array(repeating: nil, count: 9)
     }
+    
+    private func playWinningSound() {
+        // Play a unique system sound for winning
+        AudioServicesPlaySystemSound(1013) // 1013: Long tone
+        
+        // Optional: Add haptic feedback for extra effect
+        let successFeedback = UINotificationFeedbackGenerator()
+        successFeedback.notificationOccurred(.success)
+    }
+    
+    
 }

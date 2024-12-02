@@ -8,6 +8,9 @@
 // This view instantiates three buttons that let the user decide which difficulty of AI they want to play against.
 
 import SwiftUI
+import AudioToolbox
+import UIKit
+
 
 struct DifficultyChoices: View {
     @ObservedObject var viewModel : GameViewModel
@@ -16,7 +19,13 @@ struct DifficultyChoices: View {
             Spacer()
             
             Button(action: {
-                viewModel.alertItem = AlertContext.easyMode
+                AudioServicesPlaySystemSound(1104) // Play system tap sound
+                    
+                // Add haptic feedback
+                let impactFeedback = UIImpactFeedbackGenerator(style: .medium)
+                impactFeedback.impactOccurred()
+                
+                //viewModel.alertItem = AlertContext.easyMode
                 viewModel.difficulty = "Easy"
                 viewModel.playerScore = 0
                 viewModel.computerScore = 0
@@ -36,6 +45,12 @@ struct DifficultyChoices: View {
             Spacer()
 
             Button(action: {
+                AudioServicesPlaySystemSound(1104) // Play system tap sound
+                    
+                // Add haptic feedback
+                let impactFeedback = UIImpactFeedbackGenerator(style: .medium)
+                impactFeedback.impactOccurred()
+                
                 viewModel.alertItem = AlertContext.normalMode
                 viewModel.difficulty = "Normal"
                 viewModel.playerScore = 0
@@ -57,6 +72,12 @@ struct DifficultyChoices: View {
             Spacer()
 
             Button(action: {
+                AudioServicesPlaySystemSound(1104) // Play system tap sound
+                    
+                // Add haptic feedback
+                let impactFeedback = UIImpactFeedbackGenerator(style: .medium)
+                impactFeedback.impactOccurred()
+                
                 viewModel.alertItem = AlertContext.hardMode
                 viewModel.difficulty = "Hard"
                 viewModel.playerScore = 0
