@@ -1,13 +1,22 @@
-# MyBooks - SwiftData CRUD Operations
+# Reto 8
 
-Here is the completed code for the Video of the same name.
+## CRUD companies
 
-If you want to support my work, you can - </br>
-<a href='https://ko-fi.com/Z8Z22WRVG' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+Un contacto debe tener la siguiente información:
+○ Nombre de la empresa
+○ URL de la página web
+○ Teléfono de contacto
+○ Email de contacto
+○ Productos y servicios
+○ Clasificación de la empresa: consultoría, desarrollo a la medida y/o fábrica de software.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=CAr_1kcf2_c
-" target="_blank"><img src="http://img.youtube.com/vi/CAr_1kcf2_c/0.jpg" 
-alt="SwiftData CRUD operations" width="480" height="360" border="1" /></a>
+__
 
+- Company Name
+- Website URL
+- Contact Phone
+- Contact Email
+- Products and Services
+- Company Classification: Consulting, custom development, and/or software factory.
 
-
+![App](app_reto8.jpeg)
